@@ -3,7 +3,7 @@
     <title>Greeting Message</title> 
     <style>
 #lbl {
-    font-family: georgia, times, serif;
+    font-family: Lyon-Text, Georgia, YuMincho, "Yu Mincho", "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Songti TC", "Songti SC", SimSun, "Nanum Myeongjo", NanumMyeongjo, Batang, serif;
     font-size: xx-large;
     color: #4682B4;
     padding: 5px;
@@ -18,7 +18,7 @@
     font-size:large;
 }
 body{
-    background-color: aliceblue;
+    background-color: #fff;
 }
     </style>
 </head>
@@ -40,7 +40,7 @@ body{
     var today = new Date();
     var hrs = today.getHours();
     var dayOfWeek = weekday[today.getDay()];
-    var date = dayOfWeek+" " + today.getDate() + "/" +(today.getMonth()+1) +'/'+today.getFullYear()  ;
+    var date = dayOfWeek+" " + today.getDate() + "/" +(today.getMonth()+1)  +'/'+today.getFullYear()  ;
 
     var greet;
 
